@@ -34,6 +34,9 @@
     "e2e": {
       "cache": true,
       "inputs": ["default", "^production"]
+    },
+    "build-custom-server": {
+      "cache": true
     }
   },
   "namedInputs": {
