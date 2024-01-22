@@ -1,8 +1,14 @@
 import React from "react";
+import Pratices from "./component/Pratices/Pratices";
 
 function App() {
-  console.log("hello");
-  return <div>hello worls </div>;
+  
+  return (
+    <>
+      hello worls
+      <Pratices />
+    </>
+  );
 }
 
 export default App;
