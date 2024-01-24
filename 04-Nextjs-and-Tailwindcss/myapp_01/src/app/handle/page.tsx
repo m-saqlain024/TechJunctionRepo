@@ -1,18 +1,21 @@
 import Link from "next/link";
 import React from "react";
 
-export default async function page() {
-  const data = await fetch("localhost://3000/api", { cache: "no-cache" });
-  const datae = await data.json();
+const page = async () => {
+  const data = await fetch("http://localhost:3000/api").then((res) =>
+    res.json()
+  );
   return (
-    <div>
-      {datae.map((item: any, index: number) => {
+    <div className="mt-10">
+      {data?.map((post: any, index: any): any => {
         return (
           <div key={index}>
-            <Link href={``}>{item.username}</Link>
+            <Link href={`/handle/${post.id}`}>{post.username}</Link>
           </div>
         );
       })}
     </div>
   );
-}
+};
+
+export default page;
