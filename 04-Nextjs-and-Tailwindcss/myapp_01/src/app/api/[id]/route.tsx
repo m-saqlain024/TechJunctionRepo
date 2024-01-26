@@ -1,6 +1,9 @@
-export async function GET({params}:{params : {id : string}}) {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/users/${params.id}`);
-  const data = await res.json();
-  console.log(data);
-  return Response.json(data);
+export async function GET(userid: any) {
+  const res: any = await fetch(
+    `https://jsonplaceholder.typicode.com/users/${userid}`
+  ).then((res: any) => res.json());
+  // const data = await res.json();
+  console.log(userid, "logs user id ");
+
+  return Response.json({ res });
 }
