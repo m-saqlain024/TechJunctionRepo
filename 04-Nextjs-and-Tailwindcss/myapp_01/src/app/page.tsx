@@ -1,11 +1,13 @@
-import { AboutMe, HeroSection } from "@/containers/HomePage";
 import React from "react";
+import { HeroSection, PricingSections } from "@/containers/HomePage";
 
 export default function Home() {
   return (
     <main>
-      <HeroSection/>
-      <AboutMe />
+      <HeroSection />
+      <div className="bg-[#f4f4f5] mt-2">
+        <PricingSections />
+      </div>
     </main>
   );
 }
