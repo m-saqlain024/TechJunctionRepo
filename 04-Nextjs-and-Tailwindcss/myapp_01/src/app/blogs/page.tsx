@@ -1,19 +1,22 @@
-"use client"
-import React from "react";
 
-async function blogs() {
-  const data = await fetch("https://jsonplaceholder.typicode.com/users").then(
-    (res) => res.json()
-  );
-  console.log(data, "logs data");
-  return (
-    <div>
-      {data.map((data: any, index: any) => {
-        <div key={index}>{data.id}</div>;
-      })}
-      hello world
-    </div>
-  );
+import React from "react";
+import  Link  from "next/link"
+
+async function getData() {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch data");
+  }
+
+  return res.json();
 }
 
-export default blogs;
+export default async function Page() {
+  const data = await getData();
+
+  return <main>{data?.map((item:any , index:any)=>{
+    return <li key={index}><Link href={`/blogs/${item.id}`}>{item.username}</Link></li>
+  })}</main>;
+}
