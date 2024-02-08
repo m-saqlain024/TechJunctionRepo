@@ -92,7 +92,6 @@ export default function Example() {
                 )}
               >
                 <h2
-                  id={tier.id}
                   className={classNames(
                     tier.mostPopular ? "text-indigo-600" : "text-gray-900",
                     "text-lg font-semibold leading-8"
