@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>HTTP vs HTTPS</h1>
+      <p>Click the buttons below to see the difference:</p>
+      <button id="httpButton">HTTP</button>
+      <button id="httpsButton">HTTPS</button>
+      <div id="result"></div>
+    </div>
+
+    <script>
+      document
+        .getElementById("httpButton")
+        .addEventListener("click", function () {
+          checkProtocol("https://jsonplaceholder.typicode.com/users");
+        });
+
+      document
+        .getElementById("httpsButton")
+        .addEventListener("click", function () {
+          checkProtocol("https://jsonplaceholder.typicode.com/users");
+        });
+
+      function checkProtocol(url) {
+        fetch(url)
+          .then((response) => {
+            if (response.ok) {
+              document.getElementById(
+                "result"
+              ).innerHTML = `The website ${url} is accessible using ${
+                url.startsWith("https") ? "HTTPS" : "HTTP"
+              }.`;
+            } else {
+              document.getElementById(
+                "result"
+              ).innerHTML = `The website ${url} is not accessible using ${
+                url.startsWith("https") ? "HTTPS" : "HTTP"
+              }.`;
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            document.getElementById(
+              "result"
+            ).innerHTML = `Error occurred while fetching ${url}.`;
+          });
+      }
+    </script>
+  </body>
+</html>
