@@ -1,10 +1,11 @@
 import React from "react";
+// import Zustand from "../components/Zustand/Zustand";
+
 export default function Home() {
-  const data = fetch("/api");
-  console.log(data);
   return (
     <>
-      <div>hello</div>
+      {/* <Zustand/> */}
+      HELLO WORLD
     </>
   );
 }
