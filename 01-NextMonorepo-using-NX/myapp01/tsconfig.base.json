@@ -1,0 +1,16 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "home": ["libs/src/lib/home/src/index.ts"],
+      "libs": ["libs/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

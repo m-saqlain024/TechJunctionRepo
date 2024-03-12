@@ -12,7 +12,33 @@
         "startTargetName": "start",
         "serveStaticTargetName": "serve-static"
       }
+    },
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "plugin": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
     }
   ],
-  "nxCloudAccessToken": "ODkzOWQwYTgtYWM4OS00Yzg5LTg1YzktNzE1NzYwNWQ0ZjFkfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "ODkzOWQwYTgtYWM4OS00Yzg5LTg1YzktNzE1NzYwNWQ0ZjFkfHJlYWQtd3JpdGU=",
+  "generators": {
+    "@nx/react": {
+      "library": {
+        "unitTestRunner": "jest"
+      }
+    }
+  },
+  "targetDefaults": {
+    "@nx/js:tsc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["default", "^default"]
+    }
+  }
 }
