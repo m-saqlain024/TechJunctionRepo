@@ -1,6 +1,6 @@
 "use client";
 import ReactQuery from "@/components/ReactQuery/ReactQuery";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Mutation, QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import React from "react";
 
