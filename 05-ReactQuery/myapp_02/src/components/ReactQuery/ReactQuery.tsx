@@ -1,12 +1,6 @@
 "use client";
 import React from "react";
-import {
-  useQuery,
-  useMutation,
-  useQueryClient,
-  QueryClient,
-  QueryClientProvider,
-} from "@tanstack/react-query";
+import { useQuery } from "@tanstack/react-query";
 
 function ReactQuery() {
   const { isPending, isError, data, error } = useQuery({
