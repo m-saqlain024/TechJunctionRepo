@@ -3,7 +3,7 @@ import axios from "axios";
 import React from "react";
 
 const addressApi = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: "http://localhost:3000",
 });
 
 export const fetchAddress = async () => {
