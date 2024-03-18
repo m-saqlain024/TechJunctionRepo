@@ -3,6 +3,7 @@
     "allowJs": true,
     "strict": true,
     "noEmit": true,
+    "baseUrl": "./",
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
