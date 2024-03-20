@@ -1,29 +1,24 @@
 "use client";
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
+import { json } from "stream/consumers";
 
 function ReactQuery() {
   const { isPending, isError, data, error } = useQuery({
     queryKey: ["jsonplaceholder"],
-    queryFn: async () => {
-      const response = await fetch(
-        "https://jsonplaceholder.typicode.com/users/1"
+    queryFn: () => {
+      fetch("https://jsonplaceholder.typicode.com/posts").then(
+        (res) => res.json
       );
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return response.json();
     },
   });
 
   if (isPending) {
     return <span>Loading...</span>;
   }
-  console.log(error?.message);
   if (isError) {
     return <span>Error: {error.message}</span>;
   }
-  console.log(data, "logs data");
-  return <ul>{JSON.stringify(data)}</ul>;
+  return <div>{JSON.stringify(data)}</div>;
 }
 export default ReactQuery;
