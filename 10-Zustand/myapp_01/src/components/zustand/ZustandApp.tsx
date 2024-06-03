@@ -2,7 +2,17 @@
 import React, { ReactNode } from "react";
 import { create } from "zustand";
 
-const useStore = create((set) => ({
+type State = {
+  bears: number;
+};
+
+type Actions = {
+  increasePopulation: (qty: number) => void;
+  removeAllBears: (qty: number) => void;
+  updateBears: (qty: number) => void;
+};
+
+const useStore = create<State & Actions>((set) => ({
   bears: 0,
   increasePopulation: () => set((state: any) => ({ bears: state.bears + 1 })),
   removeAllBears: () => set({ bears: 0 }),
