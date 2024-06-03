@@ -1,5 +1,10 @@
-import Image from "next/image";
+import ZustandApp from "@/components/zustand/ZustandApp";
+import React from "react";
 
 export default function Home() {
-  return <main>this is a zustand</main>;
+  return (
+    <main>
+      <ZustandApp />
+    </main>
+  );
 }
