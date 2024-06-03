@@ -22,11 +22,9 @@ const useStore = create<State & Actions>((set) => ({
 function ZustandApp() {
   const bear = useStore((state: any) => state.bears);
   return (
-    <div className="w-full h-screen flex items-center justify-center ">
-      <div>
-        <span>{bear} :Number of bear</span>
-        <Control />
-      </div>
+    <div className="block">
+      <span>{bear} :Number of bear</span>
+      <Control />
     </div>
   );
 }
