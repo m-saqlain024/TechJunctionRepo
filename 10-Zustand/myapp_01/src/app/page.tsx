@@ -1,4 +1,5 @@
 import CounterStore from "@/components/zustand/CounterStore";
+import ExternalStore from "@/components/zustand/ExternalStore";
 import ZustandApp from "@/components/zustand/ZustandApp";
 import ZustandPerson from "@/components/zustand/ZustandPerson";
 import React from "react";
@@ -9,6 +10,7 @@ export default function Home() {
       <ZustandApp />
       <ZustandPerson />
       <CounterStore />
+      <ExternalStore />
     </main>
   );
 }
