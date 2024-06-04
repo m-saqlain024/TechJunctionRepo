@@ -48,3 +48,24 @@ export const useCountStore = create<Statee & Actionn>((set) => ({
       },
     })),
 }));
+
+// define action at module level , external to the store
+type stateExternal = {
+  count: number;
+  text: string;
+  display: boolean;
+};
+
+export const useExternalStore = create<stateExternal>((set) => ({
+  count: 0,
+  text: "hello",
+  display: false,
+}));
+
+export const ExternalDisplay = () =>
+  useExternalStore.setState((state) => ({ display: !state.display }));
+
+export const useExternalAction = () =>
+  useExternalStore.setState((state) => ({ count: state.count + 1 }));
+
+export const setText = (text: any) => useExternalStore.setState({ text });
