@@ -1,3 +1,4 @@
+import { count } from "console";
 import { create } from "zustand";
 
 const useStore = create((set) => ({
@@ -22,4 +23,28 @@ export const usePersonStore = create<State & Action>((set) => ({
   lastName: "",
   updateFirstName: (firstName) => set(() => ({ firstName: firstName })),
   updateLastName: (lastName) => set(() => ({ lastName: lastName })),
+}));
+
+// Define the state type
+type Statee = {
+  nested: {
+    count: number;
+    start: number;
+  };
+};
+
+type Actionn = {
+  Inc: () => void;
+};
+
+export const useCountStore = create<Statee & Actionn>((set) => ({
+  nested: { count: 0, start: 10 },
+  Inc: () =>
+    set((state) => ({
+      nested: {
+        ...state.nested,
+        count: state.nested.count + 1,
+        start: state.nested.start + 10,
+      },
+    })),
 }));
