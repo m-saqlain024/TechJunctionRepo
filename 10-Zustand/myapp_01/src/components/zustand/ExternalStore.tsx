@@ -34,7 +34,6 @@ function ExternalStore(): ReactNode {
           onClick={useExternalAction}
           className="border-2 shadow-xl bg-blue-300 p-3 rounded-lg"
         >
-          {" "}
           click me
         </button>
       </div>
