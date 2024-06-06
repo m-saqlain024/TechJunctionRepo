@@ -1,5 +1,18 @@
+"use client";
 import React from "react";
+import db from "../data/db.json";
+// import appRouter from "./server/index";
 
+const data = db;
 export default function Home() {
-  return <div>this is a trpc / next app</div>;
+  const handleClick = () => {
+    data.map((item, index) => {
+      console.log(item.name);
+    });
+  };
+  return (
+    <div>
+      <button onClick={handleClick}>button</button>
+    </div>
+  );
 }
