@@ -10,10 +10,10 @@ const appRouter = router({
   }),
 });
 
-const server = createHTTPServer({
-  router: appRouter,
-});
+// const server = createHTTPServer({
+//   router: appRouter,
+// });
 
-server.listen(3000);
+// server.listen(3000);
 
 export type AppRouter = typeof appRouter;
