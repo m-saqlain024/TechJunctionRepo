@@ -26,5 +26,18 @@ localStorage.setItem("testitem", myjson);
 const text2 = localStorage.getItem("testitem");
 // console.log(text2);
 const text3 = JSON.parse(text2);
-console.log(text3);
+// console.log(text3);
 document.getElementById("demo").innerHTML = text3.fnames[0];
+
+
+
+
+
+// Without strict mode
+function withoutStrictMode() {
+  x = 10; // No error, but x is now a global variable
+  console.log(x); // 10
+}
+
+withoutStrictMode();
+console.log(x); // 10 (x is accessible outside the function, which is not intended)
