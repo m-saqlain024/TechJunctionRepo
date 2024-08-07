@@ -1,5 +1,5 @@
 {
-	"name": "myapp-01",
+	"name": "news-app",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
