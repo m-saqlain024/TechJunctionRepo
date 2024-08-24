@@ -7,22 +7,22 @@ app.get("/api/product", (req, res) => {
   const product = [
     {
       id: 1,
-      name: "product 1",
+      name: "metal",
       price: 200,
     },
     {
       id: 1,
-      name: "product 1",
+      name: "room",
       price: 200,
     },
     {
       id: 1,
-      name: "product 1",
+      name: "fan",
       price: 200,
     },
     {
       id: 1,
-      name: "product 1",
+      name: "bulp",
       price: 200,
     },
   ];
@@ -33,6 +33,7 @@ app.get("/api/product", (req, res) => {
     const filterProduct = product.filter((product) =>
       product.name.includes(req.query.search)
     );
+    return res.send(filterProduct)
   }
 
   setTimeout(() => {
