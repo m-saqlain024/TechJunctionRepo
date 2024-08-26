@@ -1,4 +1,4 @@
-const express = require('express')
+import express from 'express';
 
 
 const app = express();
@@ -27,7 +27,6 @@ app.get("/api/product", (req, res) => {
     },
   ];
 
-  // localhost//:3000/api/product?search=metal
 
   if (req.query.search) {
     const filterProduct = product.filter((product) =>
@@ -41,7 +40,7 @@ app.get("/api/product", (req, res) => {
   }, 3000);
 });
 
-const port = 3000;
+const port = 4000;
 
 app.listen(port, () => {
   console.log(`app in running on localhost://${port}`);
