@@ -7,13 +7,5 @@
   };
 </script>
 
-<button on:click={handleClick}> + </button>
+<button class="bg-blue-500 py-2 px-5 outline-none rounded-lg hover:bg-blue-400 text-white text-lg font-extrabold cursor-pointer border border-zinc-400" on:click={handleClick}> + </button>
 
-<style>
-  button {
-    background-color: aqua;
-    padding: 2px 3px;
-    border: 2px solid burlywood;
-    border-radius: 5px;
-  }
-</style>
