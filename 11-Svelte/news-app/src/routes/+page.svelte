@@ -2,12 +2,23 @@
   import Increament from "../components/Increament.svelte";
   import Decreament from "../components/Decreament.svelte";
   import { counter } from "./../lib/state/state";
+  import {saqi} from './../lib/state/state'
 
-  let count = 10;
+  let count = 0;
   counter.subscribe((value) => {
     count = value;
   });
 
+
+  console.log(saqi)
+
+  let value = ''
+  saqi.subscribe((str)=>{
+    value = str
+  })
+
+
+console.log(value)
 </script>
 
 <svelte:head>
