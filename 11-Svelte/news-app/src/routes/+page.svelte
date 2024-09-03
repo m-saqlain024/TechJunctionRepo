@@ -3,13 +3,12 @@
   import Decreament from "../components/Decreament.svelte";
   import { counter } from "./../lib/state/state";
   import { saqi } from "./../lib/state/state";
+  import { writable } from 'svelte/store';
 
   let count = 0;
   counter.subscribe((value) => {
     count = value;
   });
-
-  console.log(saqi);
 
   let value = "";
   saqi.subscribe((str) => {
@@ -22,7 +21,23 @@
     arr.splice(2,4)
     arr = arr;
   };
-  $: console.log(arr);
+  let x = 0;
+	let y = 0;
+
+	/** @param {number} value */
+	function setY(value) {
+		y = value;
+	}
+
+	$: yDependent = y;
+	$: setY(x);
+  // /** @type {string} */
+	// let className;
+/** @param {number} value */
+  const counters = writable(120);
+
+  counters.set(420)
+	console.log($counters); 
 </script>
 
 <svelte:head>
@@ -42,3 +57,10 @@
     <Decreament />
   </div>
 </section>
+
+
+<style>
+  :global(body){
+    background-color: antiquewhite;
+  }
+</style>
