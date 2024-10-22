@@ -1,7 +1,6 @@
-const {generateRadomNumber, celciusToFahrenheit} = require('./Utlis')
+// const {generateRadomNumber, celciusToFahrenheit} = require('./Utlis')
+
+import {getPost }from './postController.js'
 
 
-
-
-console.log(`Random Number : ${generateRadomNumber()}`)
-console.log(`Celcius To Fahrenheit: ${celciusToFahrenheit(0)}`)
+console.log(getPost())
