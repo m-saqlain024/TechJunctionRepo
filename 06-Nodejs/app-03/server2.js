@@ -47,6 +47,30 @@ const notFoundHandler = (req, res) => {
   res.end();
 };
 
+
+//Route handler for api/user POST
+const createUserHandler = (req, res) => {
+  let body = "";
+
+  req.on("data", (chunk) => {
+    body += chunk.toString();
+  });
+
+  req.on("end", () => {
+    try {
+      const newUser = JSON.parse(body);
+      data.push(newUser);
+      res.statusCode = 201;
+      res.write(JSON.stringify(newUser));
+    } catch (error) {
+      res.statusCode = 400;
+      res.write(JSON.stringify({ message: "Invalid JSON format" }));
+    }
+    res.end();
+  });
+};
+
+
 const server = createServer((req, res) => {
   logger(req, res, () => {
     jsonMiddleware(req, res, () => {
@@ -72,6 +96,8 @@ const server = createServer((req, res) => {
         // }
         // res.end();
         getUserByIdHandler(req, res);
+      } else if (req.url === '/api/user' && req.method === "POST"){
+        createUserHandler(req , res)
       } else {
         // res.setHeader("Content-Type", "application/json");
         // res.write(JSON.stringify({ Message: "route not found" }));
