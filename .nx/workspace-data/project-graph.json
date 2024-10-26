@@ -1,0 +1,107 @@
+{
+  "nodes": {
+    "react-monorepo-e2e": {
+      "name": "react-monorepo-e2e",
+      "type": "e2e",
+      "data": {
+        "root": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo-e2e",
+        "name": "react-monorepo-e2e",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "sourceRoot": "apps/react-monorepo-e2e/src",
+        "tags": [],
+        "implicitDependencies": [
+          "react-monorepo"
+        ],
+        "targets": {}
+      }
+    },
+    "react-monorepo": {
+      "name": "react-monorepo",
+      "type": "app",
+      "data": {
+        "root": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo",
+        "name": "react-monorepo",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/react-monorepo/src",
+        "projectType": "application",
+        "tags": [],
+        "targets": {},
+        "implicitDependencies": []
+      }
+    },
+    "home": {
+      "name": "home",
+      "type": "lib",
+      "data": {
+        "root": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home",
+        "sourceRoot": "libs/src/lib/home/src",
+        "name": "home",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {}
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "@nx/js:tsc",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/libs/src/lib/home",
+              "main": "libs/src/lib/home/src/index.ts",
+              "tsConfig": "libs/src/lib/home/tsconfig.lib.json",
+              "assets": [
+                "libs/src/lib/home/*.md"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "library",
+        "implicitDependencies": []
+      }
+    },
+    "libs": {
+      "name": "libs",
+      "type": "lib",
+      "data": {
+        "root": "01-NextMonorepo-using-NX/myapp01/libs",
+        "name": "libs",
+        "$schema": "../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/src",
+        "projectType": "library",
+        "tags": [],
+        "targets": {},
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "react-monorepo-e2e": [
+      {
+        "source": "react-monorepo-e2e",
+        "target": "react-monorepo",
+        "type": "implicit"
+      }
+    ],
+    "react-monorepo": [],
+    "home": [],
+    "libs": []
+  },
+  "version": "6.0"
+}

@@ -1,0 +1,1248 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.0.6",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "libs": [
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/.eslintrc.json",
+          "hash": "7388911630545237055"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/README.md",
+          "hash": "15082991482347749790"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/jest.config.ts",
+          "hash": "4520564294016616184"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/project.json",
+          "hash": "5488856727514700505"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/index.ts",
+          "hash": "17589477408981871779"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/libs.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/libs.spec.tsx",
+          "hash": "14214510374338428099"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/libs.tsx",
+          "hash": "4564540694898079645"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/tsconfig.json",
+          "hash": "5226323751389187981"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/tsconfig.lib.json",
+          "hash": "16536883993834092355"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/tsconfig.spec.json",
+          "hash": "13369031804221838106"
+        }
+      ],
+      "react-monorepo": [
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/eslint.config.js",
+          "hash": "18206053935892145363"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/jest.config.ts",
+          "hash": "17070974420305035834"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/project.json",
+          "hash": "5239079782642021154"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/src/app/app.spec.tsx",
+          "hash": "1755493259770506476"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/src/app/app.tsx",
+          "hash": "4593989973936414475"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/src/app/nx-welcome.tsx",
+          "hash": "7329030662747642384"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/src/index.html",
+          "hash": "12728266045413355218"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/src/main.tsx",
+          "hash": "4731961929376199421"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/src/styles.css",
+          "hash": "9540575453073076294"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/tailwind.config.js",
+          "hash": "13090734457927965885"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/tsconfig.app.json",
+          "hash": "10514678202960682525"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/tsconfig.json",
+          "hash": "9850153468027031608"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/tsconfig.spec.json",
+          "hash": "11378287594513225419"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo/webpack.config.js",
+          "hash": "2259771596292402105"
+        }
+      ],
+      "react-monorepo-e2e": [
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo-e2e/cypress.config.ts",
+          "hash": "15014863426747353134"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo-e2e/eslint.config.js",
+          "hash": "4073391823915908619"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo-e2e/project.json",
+          "hash": "8003939048618061288"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo-e2e/src/e2e/app.cy.ts",
+          "hash": "2561305739048812997"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/react-monorepo/apps/react-monorepo-e2e/tsconfig.json",
+          "hash": "10740392072068377465"
+        }
+      ],
+      "home": [
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/.eslintrc.json",
+          "hash": "4252687536473174249"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/README.md",
+          "hash": "5603919306255086042"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/jest.config.ts",
+          "hash": "14109551647859590818"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/package.json",
+          "hash": "17698194856008661447"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/project.json",
+          "hash": "3690965224034836381"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/src/index.ts",
+          "hash": "3095826937561087678"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/src/lib/home.spec.ts",
+          "hash": "6120540712784535045"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/src/lib/home.ts",
+          "hash": "6909684164842684213"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/tsconfig.json",
+          "hash": "9584156853704587869"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/tsconfig.lib.json",
+          "hash": "5419457303262888731"
+        },
+        {
+          "file": "01-NextMonorepo-using-NX/myapp01/libs/src/lib/home/tsconfig.spec.json",
+          "hash": "12676338339107966475"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/.eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/.eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/.gitignore",
+        "hash": "3757923507575697934"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/.prettierignore",
+        "hash": "16448050467312557263"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/.prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/README.md",
+        "hash": "1785866898822000526"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/next.config.js",
+        "hash": "14594058484359092244"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/nx.json",
+        "hash": "9502995570950617298"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/package-lock.json",
+        "hash": "12815151429075514528"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/package.json",
+        "hash": "18404890837119666510"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/postcss.config.js",
+        "hash": "1579725330904862112"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/public/vercel.svg",
+        "hash": "2376673330454856631"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/src/app/favicon.ico",
+        "hash": "9157999678830540297"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/src/app/globals.css",
+        "hash": "15329929398110739341"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/src/app/layout.tsx",
+        "hash": "14048265376961113493"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/src/app/page.tsx",
+        "hash": "13906575512911458756"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/tailwind.config.ts",
+        "hash": "776514114970524489"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/tsconfig.base.json",
+        "hash": "8077868129931605462"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/myapp01/tsconfig.json",
+        "hash": "14717154600701474068"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/.editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/.github/workflows/ci.yml",
+        "hash": "11006769487199870674"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/.gitignore",
+        "hash": "17107242987988535020"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/.prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/.prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/.vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/README.md",
+        "hash": "1574958766542689764"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/eslint.config.js",
+        "hash": "2478217381773231556"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/nx.json",
+        "hash": "11788188241718019208"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/package-lock.json",
+        "hash": "498176101691212468"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/package.json",
+        "hash": "8183329835369174589"
+      },
+      {
+        "file": "01-NextMonorepo-using-NX/react-monorepo/tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "02-Advance-Js/Array-Methods/App.js",
+        "hash": "5356924593005566498"
+      },
+      {
+        "file": "02-Advance-Js/Array-Methods/Style.css",
+        "hash": "13805975474662884931"
+      },
+      {
+        "file": "02-Advance-Js/Array-Methods/index.html",
+        "hash": "2291695702826106224"
+      },
+      {
+        "file": "02-Advance-Js/Asynchrnous Javascript/app.js",
+        "hash": "12265228495095093271"
+      },
+      {
+        "file": "02-Advance-Js/Asynchrnous Javascript/index.html",
+        "hash": "5498744965944079589"
+      },
+      {
+        "file": "02-Advance-Js/GeeksforGeek/app.js",
+        "hash": "5225738204740686719"
+      },
+      {
+        "file": "02-Advance-Js/GeeksforGeek/index.html",
+        "hash": "10532681318724746459"
+      },
+      {
+        "file": "02-Advance-Js/JSON/index.html",
+        "hash": "13253342703750528322"
+      },
+      {
+        "file": "02-Advance-Js/JSON/index.js",
+        "hash": "5637644510385659767"
+      },
+      {
+        "file": "02-Advance-Js/Object-Methods/index.html",
+        "hash": "9490585694924029856"
+      },
+      {
+        "file": "02-Advance-Js/http and https/index.html",
+        "hash": "9808877047141975424"
+      },
+      {
+        "file": "03-Trpc/my-app-01/.gitignore",
+        "hash": "15751075988610075934"
+      },
+      {
+        "file": "03-Trpc/my-app-01/README.md",
+        "hash": "1841319494675493532"
+      },
+      {
+        "file": "03-Trpc/my-app-01/next.config.mjs",
+        "hash": "15052679414618985037"
+      },
+      {
+        "file": "03-Trpc/my-app-01/package-lock.json",
+        "hash": "438905521567385704"
+      },
+      {
+        "file": "03-Trpc/my-app-01/package.json",
+        "hash": "3226163904757294989"
+      },
+      {
+        "file": "03-Trpc/my-app-01/postcss.config.mjs",
+        "hash": "2557392112968376575"
+      },
+      {
+        "file": "03-Trpc/my-app-01/public/favicon.ico",
+        "hash": "9157999678830540297"
+      },
+      {
+        "file": "03-Trpc/my-app-01/public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "03-Trpc/my-app-01/public/vercel.svg",
+        "hash": "2376673330454856631"
+      },
+      {
+        "file": "03-Trpc/my-app-01/src/pages/_app.tsx",
+        "hash": "17242591208455541448"
+      },
+      {
+        "file": "03-Trpc/my-app-01/src/pages/_document.tsx",
+        "hash": "1672937207884028452"
+      },
+      {
+        "file": "03-Trpc/my-app-01/src/pages/api/trpc/[trpc].ts",
+        "hash": "8364417878763172307"
+      },
+      {
+        "file": "03-Trpc/my-app-01/src/pages/index.tsx",
+        "hash": "6011395482885671294"
+      },
+      {
+        "file": "03-Trpc/my-app-01/src/server/trpc.ts",
+        "hash": "6247746325969633965"
+      },
+      {
+        "file": "03-Trpc/my-app-01/src/styles/globals.css",
+        "hash": "10620967136394561243"
+      },
+      {
+        "file": "03-Trpc/my-app-01/src/utils/trpc.ts",
+        "hash": "6808354115383155972"
+      },
+      {
+        "file": "03-Trpc/my-app-01/tailwind.config.ts",
+        "hash": "8266647255848899898"
+      },
+      {
+        "file": "03-Trpc/my-app-01/tsconfig.json",
+        "hash": "11947368788152798359"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/.eslintrc.json",
+        "hash": "10616060546436571437"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/.gitignore",
+        "hash": "6558137213311872981"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/README.md",
+        "hash": "1785866898822000526"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/next.config.js",
+        "hash": "14594058484359092244"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/package-lock.json",
+        "hash": "7639582473227083698"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/package.json",
+        "hash": "14496151025323959381"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/postcss.config.js",
+        "hash": "1579725330904862112"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/public/vercel.svg",
+        "hash": "2376673330454856631"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/app/(marketing)/about/page.tsx",
+        "hash": "4459870501716362488"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/app/(marketing)/services/page.tsx",
+        "hash": "4531745924512879494"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/app/blogs/[id]/page.tsx",
+        "hash": "15144245425401076069"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/app/blogs/page.tsx",
+        "hash": "2043667503219547820"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/app/layout.tsx",
+        "hash": "3856971914958099957"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/app/page.tsx",
+        "hash": "13305114649341025191"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/app/task/page.tsx",
+        "hash": "7360651546409970175"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/components/index.tsx",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/containers/HomePage/AboutSection/AboutSection.tsx",
+        "hash": "7665573279404142100"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/containers/HomePage/HeroSection/HeroSection.tsx",
+        "hash": "11758417313446534642"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/containers/HomePage/PricingSection/PricingSection.tsx",
+        "hash": "2838567263795509029"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/containers/HomePage/index.ts",
+        "hash": "11525083683187308084"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/src/styles/globals.css",
+        "hash": "2172668849966456987"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/tailwind.config.ts",
+        "hash": "14636781867385007739"
+      },
+      {
+        "file": "04-Nextjs-and-Tailwindcss/myapp_01/tsconfig.json",
+        "hash": "5523950529985030143"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/Backend/index.js",
+        "hash": "1890352503899787504"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/Backend/package-lock.json",
+        "hash": "6861290807377798960"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/Backend/package.json",
+        "hash": "18330209244054458263"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/.gitignore",
+        "hash": "5403484524555424706"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/README.md",
+        "hash": "17524295600495787358"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/package-lock.json",
+        "hash": "1755532041967160136"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/package.json",
+        "hash": "3161634983715165683"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/public/favicon.ico",
+        "hash": "2949791817221603359"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/public/index.html",
+        "hash": "13308863839730475495"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/public/logo192.png",
+        "hash": "7585273181698778288"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/public/logo512.png",
+        "hash": "9339365414554387981"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/public/manifest.json",
+        "hash": "1447645250373428393"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/public/robots.txt",
+        "hash": "2790380794362165217"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/src/App.js",
+        "hash": "2981631353420231184"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/src/index.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "05-ReactQuery/Api integration/frontend/src/index.js",
+        "hash": "243436734672869111"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/.gitignore",
+        "hash": "6558137213311872981"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/README.md",
+        "hash": "1785866898822000526"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/db.json",
+        "hash": "13027042475280561420"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/next.config.js",
+        "hash": "14594058484359092244"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/package-lock.json",
+        "hash": "8055030894227753709"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/package.json",
+        "hash": "18205725395247558777"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/postcss.config.js",
+        "hash": "1579725330904862112"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/public/vercel.svg",
+        "hash": "2376673330454856631"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/src/app/component/Home/HomePage.tsx",
+        "hash": "9177312276257678770"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/src/app/component/Service/page.tsx",
+        "hash": "9036369322681447979"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/src/app/component/sections/HomeSection/HomeSection.tsx",
+        "hash": "12389616206891799699"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/src/app/component/sections/index.ts",
+        "hash": "5165262423787707122"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/src/app/globals.css",
+        "hash": "2866083945719690482"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/src/app/layout.tsx",
+        "hash": "10274335098542505970"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/src/app/page.tsx",
+        "hash": "9513744334420399447"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/tailwind.config.ts",
+        "hash": "776514114970524489"
+      },
+      {
+        "file": "05-ReactQuery/myapp_01/tsconfig.json",
+        "hash": "4520401459039737674"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/.gitignore",
+        "hash": "6558137213311872981"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/README.md",
+        "hash": "1785866898822000526"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/db.json",
+        "hash": "13027042475280561420"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/next.config.js",
+        "hash": "14594058484359092244"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/package-lock.json",
+        "hash": "17423391140613885382"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/package.json",
+        "hash": "5107799056211840622"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/postcss.config.js",
+        "hash": "1579725330904862112"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/public/vercel.svg",
+        "hash": "2376673330454856631"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/src/app/favicon.ico",
+        "hash": "9157999678830540297"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/src/app/globals.css",
+        "hash": "2866083945719690482"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/src/app/layout.tsx",
+        "hash": "15851724780368705218"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/src/app/page.tsx",
+        "hash": "6533001217897532798"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/src/components/Mutation/Mutation.tsx",
+        "hash": "15625069982862771463"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/src/components/ReactQuery/ReactQuery.tsx",
+        "hash": "5360925332403463079"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/src/components/UseQuery/UseQuery.tsx",
+        "hash": "14404806367661687427"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/tailwind.config.ts",
+        "hash": "776514114970524489"
+      },
+      {
+        "file": "05-ReactQuery/myapp_02/tsconfig.json",
+        "hash": "5523950529985030143"
+      },
+      {
+        "file": "06-Nodejs/app-01/index.js",
+        "hash": "9309212567447279326"
+      },
+      {
+        "file": "06-Nodejs/app-01/osModule.js",
+        "hash": "13526485622290152114"
+      },
+      {
+        "file": "06-Nodejs/app-01/package-lock.json",
+        "hash": "7947693302622703585"
+      },
+      {
+        "file": "06-Nodejs/app-01/package.json",
+        "hash": "8137248040450023819"
+      },
+      {
+        "file": "06-Nodejs/app-01/pathModule.js",
+        "hash": "15224565132411790061"
+      },
+      {
+        "file": "06-Nodejs/app-01/second.js",
+        "hash": "35857513001369293"
+      },
+      {
+        "file": "06-Nodejs/app-02/createMofule.js",
+        "hash": "3199981693991691549"
+      },
+      {
+        "file": "06-Nodejs/app-02/demo.html",
+        "hash": "1347788660538180507"
+      },
+      {
+        "file": "06-Nodejs/app-02/event.js",
+        "hash": "5299335428670550904"
+      },
+      {
+        "file": "06-Nodejs/app-02/fileSystem.js",
+        "hash": "11004943449681598061"
+      },
+      {
+        "file": "06-Nodejs/app-02/index.js",
+        "hash": "16210587245992161360"
+      },
+      {
+        "file": "06-Nodejs/app-02/url.js",
+        "hash": "9028368193558316066"
+      },
+      {
+        "file": "06-Nodejs/app-03/.env",
+        "hash": "16555887753799467722"
+      },
+      {
+        "file": "06-Nodejs/app-03/URLDemo.js",
+        "hash": "13052607289207770693"
+      },
+      {
+        "file": "06-Nodejs/app-03/cryptoDemo.js",
+        "hash": "1003413147422862803"
+      },
+      {
+        "file": "06-Nodejs/app-03/eventDemo.js",
+        "hash": "6001092843787227752"
+      },
+      {
+        "file": "06-Nodejs/app-03/fsDemo.js",
+        "hash": "17548744324617549991"
+      },
+      {
+        "file": "06-Nodejs/app-03/index.js",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "06-Nodejs/app-03/osDemo.js",
+        "hash": "16244990124403841337"
+      },
+      {
+        "file": "06-Nodejs/app-03/package-lock.json",
+        "hash": "13689304426631809778"
+      },
+      {
+        "file": "06-Nodejs/app-03/package.json",
+        "hash": "4794791147489936202"
+      },
+      {
+        "file": "06-Nodejs/app-03/pathDemo.js",
+        "hash": "9713551743123466546"
+      },
+      {
+        "file": "06-Nodejs/app-03/public/about.html",
+        "hash": "858024975056994320"
+      },
+      {
+        "file": "06-Nodejs/app-03/public/index.html",
+        "hash": "8357335950735489582"
+      },
+      {
+        "file": "06-Nodejs/app-03/server.js",
+        "hash": "6528875814018323680"
+      },
+      {
+        "file": "06-Nodejs/app-03/server2.js",
+        "hash": "17057442561789268421"
+      },
+      {
+        "file": "06-Nodejs/app-03/test.txt",
+        "hash": "9681361777806995777"
+      },
+      {
+        "file": "06-Nodejs/app-03/text.txt",
+        "hash": "9681361777806995777"
+      },
+      {
+        "file": "07-expressjs/client/.gitignore",
+        "hash": "6558137213311872981"
+      },
+      {
+        "file": "07-expressjs/client/README.md",
+        "hash": "1785866898822000526"
+      },
+      {
+        "file": "07-expressjs/client/next.config.js",
+        "hash": "14594058484359092244"
+      },
+      {
+        "file": "07-expressjs/client/package-lock.json",
+        "hash": "11625532580700002485"
+      },
+      {
+        "file": "07-expressjs/client/package.json",
+        "hash": "16467819811622784976"
+      },
+      {
+        "file": "07-expressjs/client/postcss.config.js",
+        "hash": "1579725330904862112"
+      },
+      {
+        "file": "07-expressjs/client/public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "07-expressjs/client/public/vercel.svg",
+        "hash": "2376673330454856631"
+      },
+      {
+        "file": "07-expressjs/client/src/app/api/route.tsx",
+        "hash": "9085553448670194510"
+      },
+      {
+        "file": "07-expressjs/client/src/app/favicon.ico",
+        "hash": "9157999678830540297"
+      },
+      {
+        "file": "07-expressjs/client/src/app/globals.css",
+        "hash": "2866083945719690482"
+      },
+      {
+        "file": "07-expressjs/client/src/app/layout.tsx",
+        "hash": "14048265376961113493"
+      },
+      {
+        "file": "07-expressjs/client/src/app/page.tsx",
+        "hash": "17033483224638065818"
+      },
+      {
+        "file": "07-expressjs/client/src/components/Hooks/store.tsx",
+        "hash": "13329863406661767120"
+      },
+      {
+        "file": "07-expressjs/client/src/components/Zustand/Zustand.tsx",
+        "hash": "5178371697224086940"
+      },
+      {
+        "file": "07-expressjs/client/tailwind.config.ts",
+        "hash": "776514114970524489"
+      },
+      {
+        "file": "07-expressjs/client/tsconfig.json",
+        "hash": "5523950529985030143"
+      },
+      {
+        "file": "07-expressjs/server/package-lock.json",
+        "hash": "6460391296969574439"
+      },
+      {
+        "file": "07-expressjs/server/package.json",
+        "hash": "13667042957766337828"
+      },
+      {
+        "file": "07-expressjs/server/server.js",
+        "hash": "15325477730810784688"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/.gitignore",
+        "hash": "6558137213311872981"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/README.md",
+        "hash": "1785866898822000526"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/next.config.js",
+        "hash": "14594058484359092244"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/package-lock.json",
+        "hash": "10888524052723316183"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/package.json",
+        "hash": "14686525677769777269"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/postcss.config.js",
+        "hash": "1579725330904862112"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/public/vercel.svg",
+        "hash": "2376673330454856631"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/src/app/api/hello.tsx",
+        "hash": "10376695879028557658"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/src/app/globals.css",
+        "hash": "2866083945719690482"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/src/app/layout.tsx",
+        "hash": "14048265376961113493"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/src/app/page.tsx",
+        "hash": "1078665533941174133"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/tailwind.config.ts",
+        "hash": "776514114970524489"
+      },
+      {
+        "file": "08-Nextjs/myapp-01/tsconfig.json",
+        "hash": "9214294367551768065"
+      },
+      {
+        "file": "09-Overmind/myapp_01/.gitignore",
+        "hash": "5403484524555424706"
+      },
+      {
+        "file": "09-Overmind/myapp_01/README.md",
+        "hash": "17524295600495787358"
+      },
+      {
+        "file": "09-Overmind/myapp_01/package-lock.json",
+        "hash": "6664019152528358509"
+      },
+      {
+        "file": "09-Overmind/myapp_01/package.json",
+        "hash": "1060057294607706242"
+      },
+      {
+        "file": "09-Overmind/myapp_01/public/favicon.ico",
+        "hash": "2949791817221603359"
+      },
+      {
+        "file": "09-Overmind/myapp_01/public/index.html",
+        "hash": "13308863839730475495"
+      },
+      {
+        "file": "09-Overmind/myapp_01/public/logo192.png",
+        "hash": "7585273181698778288"
+      },
+      {
+        "file": "09-Overmind/myapp_01/public/logo512.png",
+        "hash": "9339365414554387981"
+      },
+      {
+        "file": "09-Overmind/myapp_01/public/manifest.json",
+        "hash": "1447645250373428393"
+      },
+      {
+        "file": "09-Overmind/myapp_01/public/robots.txt",
+        "hash": "2790380794362165217"
+      },
+      {
+        "file": "09-Overmind/myapp_01/src/App.js",
+        "hash": "4449795924597754220"
+      },
+      {
+        "file": "09-Overmind/myapp_01/src/index.js",
+        "hash": "7856651914629797700"
+      },
+      {
+        "file": "09-Overmind/myapp_01/src/overmind/index.js",
+        "hash": "694499562551059094"
+      },
+      {
+        "file": "09-Overmind/myapp_01/src/overmind/state.js",
+        "hash": "11781682780470122611"
+      },
+      {
+        "file": "10-Zustand/myapp_01/.gitignore",
+        "hash": "6558137213311872981"
+      },
+      {
+        "file": "10-Zustand/myapp_01/README.md",
+        "hash": "1785866898822000526"
+      },
+      {
+        "file": "10-Zustand/myapp_01/next.config.js",
+        "hash": "14594058484359092244"
+      },
+      {
+        "file": "10-Zustand/myapp_01/package-lock.json",
+        "hash": "10809077111587101185"
+      },
+      {
+        "file": "10-Zustand/myapp_01/package.json",
+        "hash": "4372166002644178826"
+      },
+      {
+        "file": "10-Zustand/myapp_01/postcss.config.js",
+        "hash": "1579725330904862112"
+      },
+      {
+        "file": "10-Zustand/myapp_01/public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "10-Zustand/myapp_01/public/vercel.svg",
+        "hash": "2376673330454856631"
+      },
+      {
+        "file": "10-Zustand/myapp_01/src/app/_store/store.ts",
+        "hash": "13689242645523520069"
+      },
+      {
+        "file": "10-Zustand/myapp_01/src/app/globals.css",
+        "hash": "2866083945719690482"
+      },
+      {
+        "file": "10-Zustand/myapp_01/src/app/layout.tsx",
+        "hash": "14048265376961113493"
+      },
+      {
+        "file": "10-Zustand/myapp_01/src/app/page.tsx",
+        "hash": "16898981438912438287"
+      },
+      {
+        "file": "10-Zustand/myapp_01/src/components/zustand/CounterStore.tsx",
+        "hash": "10971008181831446219"
+      },
+      {
+        "file": "10-Zustand/myapp_01/src/components/zustand/ExternalStore.tsx",
+        "hash": "3653818251619216829"
+      },
+      {
+        "file": "10-Zustand/myapp_01/src/components/zustand/ZustandApp.tsx",
+        "hash": "148682748514211485"
+      },
+      {
+        "file": "10-Zustand/myapp_01/src/components/zustand/ZustandPerson.tsx",
+        "hash": "3963497141303839950"
+      },
+      {
+        "file": "10-Zustand/myapp_01/tailwind.config.ts",
+        "hash": "776514114970524489"
+      },
+      {
+        "file": "10-Zustand/myapp_01/tsconfig.json",
+        "hash": "5523950529985030143"
+      },
+      {
+        "file": "11-Svelte/news-app/.gitignore",
+        "hash": "16452994813481784462"
+      },
+      {
+        "file": "11-Svelte/news-app/.npmrc",
+        "hash": "16306061729883149313"
+      },
+      {
+        "file": "11-Svelte/news-app/README.md",
+        "hash": "11542502170952645301"
+      },
+      {
+        "file": "11-Svelte/news-app/package-lock.json",
+        "hash": "9718488131289037010"
+      },
+      {
+        "file": "11-Svelte/news-app/package.json",
+        "hash": "673431627791108996"
+      },
+      {
+        "file": "11-Svelte/news-app/src/app.css",
+        "hash": "17151588166810062473"
+      },
+      {
+        "file": "11-Svelte/news-app/src/app.d.ts",
+        "hash": "17522384083550949823"
+      },
+      {
+        "file": "11-Svelte/news-app/src/app.html",
+        "hash": "18441766884450945979"
+      },
+      {
+        "file": "11-Svelte/news-app/src/lib/images/github.svg",
+        "hash": "13787482120730406276"
+      },
+      {
+        "file": "11-Svelte/news-app/src/lib/images/svelte-logo.svg",
+        "hash": "50607055863844636"
+      },
+      {
+        "file": "11-Svelte/news-app/src/lib/images/svelte-welcome.png",
+        "hash": "6822672916961572373"
+      },
+      {
+        "file": "11-Svelte/news-app/src/lib/images/svelte-welcome.webp",
+        "hash": "13869206264489747508"
+      },
+      {
+        "file": "11-Svelte/news-app/src/routes/+layout.svelte",
+        "hash": "10255383071237460283"
+      },
+      {
+        "file": "11-Svelte/news-app/src/routes/+page.svelte",
+        "hash": "1762526650804078040"
+      },
+      {
+        "file": "11-Svelte/news-app/src/routes/+page.ts",
+        "hash": "14652161136502518409"
+      },
+      {
+        "file": "11-Svelte/news-app/static/favicon.png",
+        "hash": "11504680974745960892"
+      },
+      {
+        "file": "11-Svelte/news-app/static/robots.txt",
+        "hash": "2790380794362165217"
+      },
+      {
+        "file": "11-Svelte/news-app/svelte.config.js",
+        "hash": "7828779082743697668"
+      },
+      {
+        "file": "11-Svelte/news-app/tsconfig.json",
+        "hash": "10493263158104470868"
+      },
+      {
+        "file": "11-Svelte/news-app/vite.config.ts",
+        "hash": "5384789963550844849"
+      },
+      {
+        "file": "README.md",
+        "hash": "14008946605276381324"
+      }
+    ]
+  }
+}
