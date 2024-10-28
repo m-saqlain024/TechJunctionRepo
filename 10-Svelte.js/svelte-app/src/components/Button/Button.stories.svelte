@@ -1,11 +1,12 @@
 <script module>
   import { defineMeta } from '@storybook/addon-svelte-csf';
+  // @ts-ignore
   import Button from './Button.svelte';
   import { fn } from '@storybook/test';
 
   // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
   const { Story } = defineMeta({
-    title: 'Example/Button',
+    title: 'Components/Button',
     component: Button,
     tags: ['autodocs'],
     argTypes: {

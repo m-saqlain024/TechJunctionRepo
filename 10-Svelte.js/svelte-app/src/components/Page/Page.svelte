@@ -1,6 +1,8 @@
 <script>
+// @ts-nocheck
+
   import './page.css';
-  import Header from './Header.svelte';
+  import Header from '../Header/Header.svelte';
 
   let user = $state(null);
 </script>
