@@ -3,9 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  console.log("hi");
-  req.send("hello xindigi");
+  res.end("Hello world ");
 });
 
-app.listen(3000);
-  
+app.listen(8000, () => console.log("server is running"));
