@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "nodemon serve" : "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "murshid",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "expressjs": "^1.0.1",
-    "nodemon": "^3.0.3"
+    "express": "^4.21.1"
   }
 }
